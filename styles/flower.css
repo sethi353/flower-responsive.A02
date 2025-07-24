@@ -108,7 +108,25 @@ nav ul li{
     font-size: 1.5rem;
     font-weight: 700;
 }
+.lovers{
+    display: flex;
+    margin-top: 200px;
+    gap: 100px;
+    margin-left: 200px;
+}
+.flower-img{
+    margin-top: -100px;
+    margin-left: -250px;
+}
+.lover-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: -100px;
+}
 
+.plants-title{
+    font-size: 1.25rem;
+}
 @media screen and (max-width:576px){
     .hide-on{
         display: none;
