@@ -127,6 +127,22 @@ nav ul li{
 .plants-title{
     font-size: 1.25rem;
 }
+
+/* deals styles */
+
+.deals-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.deals-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
 @media screen and (max-width:576px){
     .hide-on{
         display: none;
@@ -155,6 +171,11 @@ nav ul li{
   .flowers-container{
     grid-template-columns: repeat(2,1fr);
     gap:none;
+  }
+  .lovers{
+    flex-direction: column;
+    margin: auto;
+    
   }
 }
 
