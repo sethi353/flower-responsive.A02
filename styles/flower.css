@@ -467,16 +467,24 @@ nav ul {
   .footer-content {
     flex-direction: column;
     gap: 20px;
-    text-align: center;
+    text-align: left;
   }
 
   .footer-links {
     flex-direction: column;
     gap: 10px;
-    align-items: center;
+    align-items: flex-start;
+    gap: 0;
+    
   }
 
-  .socials {
-    justify-content: center;
+  .footer-links ul {
+  margin: 0;        
+  padding: 0;
   }
+
+  .socials{
+    justify-content: flex-start;
+  }
+  
 }
