@@ -351,7 +351,7 @@ footer {
     }
 
     .header {
-    flex-wrap: nowrap; /* ✅ keep in one line */
+    flex-wrap: nowrap;
     padding: 10px;
     gap: 10px;
   }
@@ -363,9 +363,9 @@ footer {
 
 .nav {
   display: flex;
-  justify-content: center; /* center it if it wraps */
+  justify-content: center; 
   flex-wrap: wrap;
-  width: 100%; /* ✅ let it take full width */
+  width: 100%; 
   gap: 10px;
 }
 
@@ -380,21 +380,21 @@ footer {
     flex-direction: column-reverse;
     align-items: center;
     margin: 50px 20px;
-    gap: 30px; /* optional: adds spacing between title and image */
+    gap: 30px; 
   }
 
   
 
   .banner-title {
-    font-size: 2rem; /* optional: adjust size for small screens */
+    font-size: 2rem; 
   }
 
   .banner-description {
-    font-size: 1rem; /* optional: adjust description text */
+    font-size: 1rem; 
   }
 
   .banner img {
-    width: 100%; /* make image responsive */
+    width: 100%; 
     max-width: 300px;
   }
 
@@ -454,12 +454,13 @@ footer {
 
   .deals-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    
   }
 
   .deal1, .deal2, .deal3 {
-    grid-row: auto;
-    grid-column: auto;
+   
+    grid-column: auto !important;
+     grid-row: auto !important;
   }
 
 
